@@ -25,6 +25,7 @@ int main() {
 
     //
     func(i, c, f);
+    func(i, c, f);
 
     //
     return 0;

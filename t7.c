@@ -7,19 +7,19 @@
 void func(int i) {
     // 変数に値を代入する
     i = 100;
-    printf("func:\t%d\n", i);
+    printf("func(%08x):\t%d\n", &i, i);
 }
 
 
 int main() {
     int i = 0;
-    printf("base:\t%d\n", i);
+    printf("base(%08x):\t%d\n", &i, i);
 
     // 関数を呼ぶ
     func(i);
 
     //
-    printf("base:\t%d\n", i);
+    printf("base(%08x):\t%d\n", &i, i);
 
     //
     return 0;

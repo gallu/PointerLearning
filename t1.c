@@ -6,18 +6,18 @@
 
 int main() {
     // 元になるデータ
-    int i = 10;
+    //int i = 10;
     //int i = 0x1ffff;
     //char c = 'a';
-    //double f = 12.125;
+    double f = 12.125;
 
     //
     char *ps;
 
     //
-    ps = (char *)&i;
+    //ps = (char *)&i;
     //ps = (char *)&c;
-    //ps = (char *)&f;
+    ps = (char *)&f;
 
     // データの出力
     int counter;
